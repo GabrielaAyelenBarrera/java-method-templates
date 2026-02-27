@@ -16,13 +16,13 @@ https://gabrielaayelenbarrera.github.io/java-method-templates/
 ---
 ## 💡 ¿Por qué hice este proyecto?
 
-Mientras curso la carrera de Analista de Sistemas noté algo muy común:
+Mientras me preparaba para los parciales de la carrera de Analista de Sistemas noté algo muy común:
 
-Sabemos la lógica… pero al momento de escribir el método desde cero nos quedamos en blanco.
+Entendemos la lógic pero al momento de escribir la sintaxis del método desde cero nos quedamos en blanco.
 
 Este proyecto nace para resolver eso.
 
-La idea es tener un **buscador rápido de soluciones típicas** que aparecen en parciales y ejercicios de Programación Orientada a Objetos.
+La idea es tener un **buscador rápido de metodos frecuentes** que aparecen en ejercicios de Programación Orientada a Objetos.
 
 ---
 
