@@ -18,7 +18,7 @@ https://gabrielaayelenbarrera.github.io/java-method-templates/
 
 Mientras me preparaba para los parciales de la carrera de Analista de Sistemas noté algo muy común:
 
-Entendemos la lógic pero al momento de escribir la sintaxis del método desde cero nos quedamos en blanco.
+Entendemos la lógica pero al momento de escribir la sintaxis del método desde cero, nos quedamos en blanco.
 
 Este proyecto nace para resolver eso.
 
