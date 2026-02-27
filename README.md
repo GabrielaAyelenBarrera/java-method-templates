@@ -104,14 +104,10 @@ java-method-templates
 **Gabriela Ayelén Barrera**  
 Estudiante de Analista de Sistemas – ORT Argentina
 💼 LinkedIn:
-```bash
 
 https://www.linkedin.com/in/gabrielabarrera-/
-```
----
+
 🐙 GitHub:
-```bash
 
 https://github.com/GabrielaAyelenBarrera
 
-```
