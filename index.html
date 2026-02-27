@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de Plantillas Java — Gabriela Barrera</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="header-bg"></div>
+  <div class="header-grid"></div>
+  <div class="header-particles" id="particles"></div>
+
+  <div class="header-inner">
+    <!-- IZQUIERDA -->
+    <div class="header-left">
+      <a class="social-btn btn-linkedin" href="https://www.linkedin.com/in/gabrielabarrera-/" target="_blank">
+        <span class="social-icon icon-li">in</span>
+        Gabriela Barrera
+      </a>
+      <a class="social-btn btn-github" href="https://github.com/GabrielaAyelenBarrera" target="_blank">
+        <span class="social-icon icon-gh">
+          <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        </span>
+        GabrielaAyelenBarrera
+      </a>
+    </div>
+
+    <!-- CENTRO -->
+    <div class="header-center">
+      <div class="header-icon-wrap">
+        <div class="header-icon-halo"></div>
+        <span class="header-icon">☕</span>
+      </div>
+      <div class="header-tag">POO · Programación Orientada a Objetos</div>
+      <div class="header-title">Buscador de Plantillas Java</div>
+      <div class="header-sub">
+        <span class="hl">Escribí lo que necesita hacer el método</span>
+        <span class="sep">→</span>
+        <span>encontrá la plantilla exacta</span>
+      </div>
+    </div>
+
+    <!-- DERECHA -->
+    <div class="header-right">
+      <div class="poo-badge">
+        <div class="java-dot"></div>
+        Java · ArrayList · OOP
+      </div>
+    </div>
+  </div>
+
+  <div class="header-stats">
+    <div class="stat-item"><div class="dot" style="background:#38bdf8"></div><span><span class="val">27</span> plantillas</span></div>
+    <div class="stat-item"><div class="dot" style="background:#a78bfa"></div><span><span class="val">13</span> categorías</span></div>
+    <div class="stat-item"><div class="dot" style="background:#34d399"></div><span><span class="val">Búsqueda</span> inteligente</span></div>
+    <div class="stat-item"><div class="dot" style="background:#f59e0b"></div><span><span class="val">Código</span> listo para copiar</span></div>
+  </div>
+</div>
+
+<!-- SEARCH -->
+<div class="search-area">
+  <div class="search-label">¿Qué necesita hacer el método?</div>
+  <div class="search-box">
+    <span class="search-icon">🔍</span>
+    <input type="text" class="search-input" id="searchInput"
+      placeholder="ej: agregar sin repetir, obtener el mayor, buscar por, registrar..."
+      autocomplete="off" oninput="doSearch()" />
+  </div>
+
+
+<div class="quick-filters" style="padding:0 32px;">
+  <button class="qf-btn active" data-cat="all"      onclick="setCategory('all',this)">Todas</button>
+  <button class="qf-btn" data-cat="buscar"           onclick="setCategory('buscar',this)">🔎 Buscar</button>
+  <button class="qf-btn" data-cat="agregar"          onclick="setCategory('agregar',this)">➕ Agregar</button>
+  <button class="qf-btn" data-cat="registrar"        onclick="setCategory('registrar',this)">📋 Registrar</button>
+  <button class="qf-btn" data-cat="eliminar"         onclick="setCategory('eliminar',this)">🗑️ Eliminar</button>
+  <button class="qf-btn" data-cat="modificar"        onclick="setCategory('modificar',this)">✏️ Modificar</button>
+  <button class="qf-btn" data-cat="listar"           onclick="setCategory('listar',this)">📄 Listar</button>
+  <button class="qf-btn" data-cat="contar"           onclick="setCategory('contar',this)">🔢 Contar</button>
+  <button class="qf-btn" data-cat="max"              onclick="setCategory('max',this)">⬆️ Máx/Mín</button>
+  <button class="qf-btn" data-cat="promedio"         onclick="setCategory('promedio',this)">📊 Promedio</button>
+  <button class="qf-btn" data-cat="filtrar"          onclick="setCategory('filtrar',this)">🧹 Filtrar</button>
+  <button class="qf-btn" data-cat="finalizar"        onclick="setCategory('finalizar',this)">✅ Finalizar</button>
+  <button class="qf-btn" data-cat="validar"          onclick="setCategory('validar',this)">🛡️ Validar</button>
+  <button class="qf-btn" data-cat="enum"             onclick="setCategory('enum',this)">🏷️ Enum</button>
+</div>
+
+<div class="results-area">
+  <div class="results-meta" id="resultsMeta"></div>
+  <div id="noResults" class="no-results">
+    <div class="nr-icon">🤔</div>
+    <div class="nr-msg">Sin resultados</div>
+    <div class="nr-sub">Probá con otras palabras: "buscar", "agregar", "eliminar", "contar"...</div>
+  </div>
+  <div id="cardsContainer"></div>
+</div>
+
+
+<!-- ✅ FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-left">
+      <span>Plantillas desarrolladas en  <span class="tech-chip">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
+    Java
+  </span> por <strong style="color:var(--text)">Gabriela Barrera</strong></span>
+      <span style="opacity:.35">·</span>
+      <a href="https://github.com/GabrielaAyelenBarrera" target="_blank" rel="noopener">GitHub</a>
+       <span style="opacity:.35">·</span>
+      <a href="https://www.linkedin.com/in/gabrielabarrera-/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+
+<div class="footer-tech">
+
+ 
+ <span>Aplicación web construida con </span>
+  <span class="tech-chip">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+    HTML
+  </span>
+
+  <span class="tech-chip">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+    CSS
+  </span>
+
+  <span class="tech-chip">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+    JavaScript
+  </span>
+</div>
+</footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
