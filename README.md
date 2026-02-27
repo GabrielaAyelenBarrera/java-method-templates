@@ -22,6 +22,7 @@ Sabemos la lógica pero al momento de escribir el método desde cero nos quedamo
 Este proyecto nace para resolver eso.
 
 La idea es tener un buscador rápido de soluciones típicas que aparecen en parciales y ejercicios de Programación Orientada a Objetos.
+
 ---
 ## 🔎 ¿Qué permite hacer?
 
@@ -55,8 +56,6 @@ Podés escribir qué necesitás hacer y la app te muestra:
 ---
 ## 🛠️ Tecnologías utilizadas
 
-Web
-
 HTML
 
 CSS
@@ -68,42 +67,51 @@ JavaScript
 
 Plantillas y lógica en Java ☕
 
-🎯 Objetivo del proyecto
+---
+## 🎯 Objetivo del proyecto
 
-Ayudar a estudiantes que están aprendiendo:
 
-Programación Orientada a Objetos
+- Ayudar a estudiantes que están aprendiendo:
 
-Lógica de programación
 
-Métodos típicos de ejercicios
+- Programación Orientada a Objetos
 
-Uso de ArrayList
 
-Validaciones de datos
+- Lógica de programación
+
+
+- Métodos típicos de ejercicios
+
+
+- Uso de ArrayList
+
+
+- Validaciones de datos
 
 ---
 ## 📂 Estructura del proyecto
 java-method-templates
+```bash
 │
 ├── index.html
 ├── css/
 │   └── styles.css
 └── js/
     └── script.js
-    
+```
 ## 👩‍💻 Autora
 
 **Gabriela Ayelén Barrera**  
 Estudiante de Analista de Sistemas – ORT Argentina
-
-```bash
 💼 LinkedIn:
+```bash
+
 https://www.linkedin.com/in/gabrielabarrera-/
 ```
 ---
-```bash
 🐙 GitHub:
+```bash
+
 https://github.com/GabrielaAyelenBarrera
 
 ```
