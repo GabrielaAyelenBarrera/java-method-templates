@@ -5,34 +5,34 @@ Una herramienta web creada para ayudar a estudiantes de programación a encontra
 ---
 
 ## 👉 Probar la app online
-```bash
+
 https://gabrielaayelenbarrera.github.io/java-method-templates/
-```
+
 ---
 
 ## 🚀 Preview
+![Preview app](preview.png)
 
 ---
 ## 💡 ¿Por qué hice este proyecto?
 
 Mientras curso la carrera de Analista de Sistemas noté algo muy común:
 
-Sabemos la lógica pero al momento de escribir el método desde cero nos quedamos en blanco.
+Sabemos la lógica… pero al momento de escribir el método desde cero nos quedamos en blanco.
 
 Este proyecto nace para resolver eso.
 
-La idea es tener un buscador rápido de soluciones típicas que aparecen en parciales y ejercicios de Programación Orientada a Objetos.
+La idea es tener un **buscador rápido de soluciones típicas** que aparecen en parciales y ejercicios de Programación Orientada a Objetos.
 
 ---
+
 ## 🔎 ¿Qué permite hacer?
 
 Podés escribir qué necesitás hacer y la app te muestra:
 
-🧠 Pasos lógicos del algoritmo
-
-💻 Código Java listo para copiar
-
-🎯 Métodos típicos de parciales
+- 🧠 Pasos lógicos del algoritmo  
+- 💻 Código Java listo para copiar  
+- 🎯 Métodos típicos de parciales 
 
 ---
 ## Ejemplos incluidos:
@@ -56,18 +56,16 @@ Podés escribir qué necesitás hacer y la app te muestra:
 ---
 ## 🛠️ Tecnologías utilizadas
 
-HTML
+### 🌐 Frontend
+- 🧱 HTML  
+- 🎨 CSS  
+- ⚡ JavaScript  
 
-CSS
-
-JavaScript
-
----
-## Contenido
-
-Plantillas y lógica en Java ☕
+### ☕ Contenido
+- Plantillas y lógica en **Java**
 
 ---
+
 ## 🎯 Objetivo del proyecto
 
 
@@ -99,15 +97,18 @@ java-method-templates
 └── js/
     └── script.js
 ```
-## 👩‍💻 Autora
 
-**Gabriela Ayelén Barrera**  
-Estudiante de Analista de Sistemas – ORT Argentina
 💼 LinkedIn:
+
 
 https://www.linkedin.com/in/gabrielabarrera-/
 
 🐙 GitHub:
 
+
 https://github.com/GabrielaAyelenBarrera
 
+## 👩‍💻 Autora
+
+**Gabriela Ayelén Barrera**  
+Estudiante de Analista de Sistemas – ORT Argentina
